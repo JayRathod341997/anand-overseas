@@ -7,3 +7,8 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%);
+}
+
