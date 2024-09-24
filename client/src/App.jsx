@@ -5,17 +5,20 @@ import HomePage from "./components/HomePage/HomePage";
 import BlogPage from "./components/BlogPage/BlogPage";
 import ContactPage from "./components/ContactUsPage/ContactPage";
 import Testimonial from "./components/TestimonialPage/Testimonial";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
       <BrowserRouter>
         <NavBar />
+        <Testimonial />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/testimonial" element={<Testimonial />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
