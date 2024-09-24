@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* Adjust to appropriate height for your logo */
+    width: auto;  /* Maintains the aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight hover effect */
+}
+
+/* Container for the links */
+.navLinks {
+    display: inline-flex; 
+    align-items: center;
+    gap: 20px; /* Space between the links */
+}
+
+.navbar a {
+    
+    text-decoration: none; /* Remove default underline */
+    font-size: 16px;
+    color: #333; /* Text color */
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #007bff; /* Change text color on hover */
+}
+
+.activeLink {
+    font-weight: bold; /* Bold text for active link */
+    color: #007bff; /* Highlight active link in blue */
+    border-bottom: 2px solid #007bff; /* Optional underline or border */
+}
