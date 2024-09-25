@@ -16,9 +16,22 @@ const Navbar = () => {
 
       {/* Right side - Links */}
       <div className={classes.navLinks}>
-        <NavLink to="/" exact activeClassName={classes.activeLink}>
-          <HomeIcon />
-          Home
+        <NavLink
+          to="/"
+          style={({ isActive, isTransitioning }) => {
+            return {
+              fontWeight: isActive ? "bold" : "",
+              color: isActive ? "#007bff" : "black",
+              viewTransitionName: isTransitioning ? "slide" : "",
+            };
+          }}
+          exact
+          activeClassName={classes.activeLink}
+        >
+          <div className={classes.navIconTextStyle}>
+            <HomeIcon />
+            Home
+          </div>
         </NavLink>
         <NavLink
           to="/blog"
@@ -30,16 +43,32 @@ const Navbar = () => {
             };
           }}
         >
-          <ArticleIcon />
-          Blog
+          <div className={classes.navIconTextStyle}>
+            <ArticleIcon />
+            Blog
+          </div>
         </NavLink>
-        <NavLink to="/testimonial" activeClassName={classes.activeLink}>
-          <QuestionAnswerIcon />
-          Testimonials
+        <NavLink
+          to="/testimonial"
+          style={({ isActive, isTransitioning }) => {
+            return {
+              fontWeight: isActive ? "bold" : "",
+              color: isActive ? "#007bff" : "black",
+              viewTransitionName: isTransitioning ? "slide" : "",
+            };
+          }}
+          activeClassName={classes.activeLink}
+        >
+          <div className={classes.navIconTextStyle}>
+            <QuestionAnswerIcon />
+            Testimonials
+          </div>
         </NavLink>
         <NavLink to="/contact" activeClassName={classes.activeLink}>
-          <ContactMailIcon />
-          Contact Us
+          <div className={classes.navIconTextStyle}>
+            <ContactMailIcon />
+            Contact Us
+          </div>
         </NavLink>
       </div>
     </div>
