@@ -2,12 +2,13 @@
 
 
 .heroSection{
-  background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%);
+  /* background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%); */
+  height: 90vh;
 }
 
 .imageContainer {
   width: 30rem;
-  height: 35rem;
+  height: 38rem;
   overflow: hidden;
   border-radius: 15rem 15rem 0 0;
   border: 8px solid rgba(255, 255, 255, 0.12);
