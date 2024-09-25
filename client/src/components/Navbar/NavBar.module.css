@@ -1,11 +1,12 @@
 .navbar {
-    background-color: #bce4f7;
+    /* background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%); */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #f8f9fa; /* Light background for navbar */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 1rem 2rem;
+    
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+     /* Subtle shadow for depth */
 }
 
 .logoContainer {
@@ -26,8 +27,9 @@
 /* Container for the links */
 .navLinks {
     display: inline-flex; 
+    margin-right: 1rem;
     align-items: center;
-    gap: 20px; /* Space between the links */
+    gap: 1.5rem; /* Space between the links */
 }
 
 .navbar a {
@@ -45,5 +47,11 @@
 .activeLink {
     font-weight: bold; /* Bold text for active link */
     color: #007bff; /* Highlight active link in blue */
-    border-bottom: 2px solid #007bff; /* Optional underline or border */
+    border-bottom: 2px solid #007bff;
+     /* Optional underline or border */
+}
+
+.navIconTextStyle{
+    display: flex;
+    gap: 0.3em;
 }
