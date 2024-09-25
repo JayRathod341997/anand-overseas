@@ -1,3 +1,4 @@
+import ContactForm from "./ContactPage/ContactForm";
 import HeroSection from "./HeroSection";
 import ScoreCard from "./ScoreCard/ScoreCard";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <HeroSection />
       <ScoreCard />
+      <ContactForm />
     </>
   );
 };
