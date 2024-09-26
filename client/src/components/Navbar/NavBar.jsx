@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import classes from "./Navbar.module.css";
+import classes from "./NavBar.module.css";
 import HomeIcon from "@mui/icons-material/Home";
 import ArticleIcon from "@mui/icons-material/Article";
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
