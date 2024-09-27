@@ -11,5 +11,6 @@
 
 
 body{
-  background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%);
+  /* background: linear-gradient(250deg, #a8d0e0 8.76%, #fff0 99%); */
+  background:linear-gradient(287deg, #5dcfe5 8.76%, #ff828200 99%)
 }
