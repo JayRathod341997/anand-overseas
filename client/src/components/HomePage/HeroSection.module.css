@@ -19,6 +19,27 @@
   height: 100%;
 }
 
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+}
+
+
 /* Animation for h1 */
 @keyframes slideDown {
   0% {
