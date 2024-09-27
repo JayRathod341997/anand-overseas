@@ -50,12 +50,14 @@ const ContactForm = () => {
               <br />
               Anand, Gujarat 388120
             </p>
-            <p>
-              <strong>Phone:</strong> (+091)-XXX-XXXX
-            </p>
-            <p>
-              <strong>Email:</strong> info@xyz.com
-            </p>
+            <>
+              <p>
+                <strong>Phone:</strong> (+091)-XXX-XXXX
+              </p>
+              <p>
+                <strong>Email:</strong> info@xyz.com
+              </p>
+            </>
           </div>
         </div>
 
