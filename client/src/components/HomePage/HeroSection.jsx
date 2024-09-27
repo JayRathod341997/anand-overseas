@@ -22,9 +22,13 @@ const HeroSection = () => {
             From GRE Prep to Visa!
           </h1>
 
-          <p className={`hidden sm:block mt-4 ${styles.animateFadeInDelay}`}>
+          <p
+            className={`hidden sm:block mt-4 ${styles.animateFadeInDelay}`}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             Explore thousands of programs, get matched with an advisor
           </p>
+          <p></p>
         </div>
       </div>
     </div>
