@@ -4,13 +4,15 @@ import HomeIcon from "@mui/icons-material/Home";
 import ArticleIcon from "@mui/icons-material/Article";
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/logo.png";
 const Navbar = () => {
   return (
     <div className={classes.navbar}>
       {/* Left side - Logo */}
       <NavLink to="/">
         <div className={classes.logoContainer}>
+          <img src={logo} className={classes.logo} alt="Logo" />
+          <div className={classes.line}></div>
           <img src={logo} className={classes.logo} alt="Logo" />
         </div>
       </NavLink>

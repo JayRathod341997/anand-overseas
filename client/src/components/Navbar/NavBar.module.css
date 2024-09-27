@@ -15,11 +15,18 @@
 }
 
 .logo {
+    
     height: 50px; /* Adjust to appropriate height for your logo */
     width: auto;  /* Maintains the aspect ratio */
     transition: transform 0.3s ease;
 }
 
+.line {
+    width: 1px;
+    height: 41px;
+    background-color: #007bff;
+    margin: 3px;
+  }
 .logo:hover {
     transform: scale(1.1); /* Slight hover effect */
 }
